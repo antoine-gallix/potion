@@ -39,7 +39,7 @@ Patterns and *Needs* they produce:
 ==================== ===================================== ===================================================
 Pattern              Matches                               Description
 ==================== ===================================== ===================================================
-{action}             a key in the ``permissions`` dict  If equal to the action it is declared for
+{action}             a key in the ``permissions`` dict     If equal to the action it is declared for
                                                            --- e.g. ``{'create': 'create'}`` --- evaluate to:
 
                                                            ``HybridItemNeed({action}, resource_name)``
